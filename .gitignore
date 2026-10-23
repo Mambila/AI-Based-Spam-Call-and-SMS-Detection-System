@@ -1,0 +1,6 @@
+Set-Content -Path .gitignore -Value @"
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.streamlit/
+"@
